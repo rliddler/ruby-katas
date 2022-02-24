@@ -1,6 +1,6 @@
 # Super Market Checkout
 
-## Problem statement
+## Problem statement
 
 At SuperRobCo our pricing department has a slightly bespoke tool to create an manager the
 prices of goods within the store.
@@ -41,8 +41,14 @@ yourself!).
 
 ## Tips for how to approach this
 
+There a few distinct steps to this task - it can be helpful to create a simple end to end
+test to begin with the help guide you.
 
+Also consider perhaps not worrying about the parsing of the file to begin with but rather
+assume you have a nicely parsed series of items with which you can interact with.
 
+Later on you can then consider how to best parse and interpret the file to match your
+other code.
 
 
 ## Bonus Requirement Change
