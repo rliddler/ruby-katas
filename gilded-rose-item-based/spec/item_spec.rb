@@ -1,6 +1,6 @@
 require_relative("../lib/item")
 
-RSpec.describe GildedRose do
+RSpec.describe Item do
   describe "#update_quality" do
     it "does not change the name" do
       item = Item.new("foo", 0, 0)
